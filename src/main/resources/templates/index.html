@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" th:href="@{/lib/easyui/themes/default/easyui.css}">
+<link rel="stylesheet" type="text/css" th:href="@{/lib/easyui/themes/icon.css}">
+<script type="text/javascript" th:src="@{/lib/easyui/jquery.min.js}"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.stock.min.js"></script>
+
+<script th:src="@{/js/index.js}"></script>
+<title>charts</title>
+</head>
+<body>
+
+<div id="chartForm">
+    <input type = "text" maxlength = "4" id='input'>
+        <select id="intervalOptions"></select>
+        <select id="symbolOptions"></select>
+        <button id='getCandlestickDataBtn'>Show Chart</button>
+
+        <!-- candlestick chart-->
+        <div id='chart'></div>
+</body>
+</html>
