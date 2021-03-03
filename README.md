@@ -1,6 +1,8 @@
 # binance-client
 This is a spring boot application that gets the candlestick data from Binance API and shows the chart with CanvasJS
 
+![binance-client](https://user-images.githubusercontent.com/24717849/109778727-81acb100-7c48-11eb-8abc-664ed3cac58d.JPG)
+
 ### setup
 Get API Key and Secret Key binance fill as "api-key" and "secret-key" in src/main/resouces/application.properties.
 
